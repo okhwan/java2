@@ -5,14 +5,18 @@ import java.awt.*;
 public class shopmain extends JFrame{
 	
 	public shopmain() {
-		setTitle("¾Æ°¡¶û ¼îÇÎ¸ô");
+		setTitle("ì•„ê°€ë‘ ì‡¼í•‘ëª°");
 		Container c = getContentPane();
 		c.setLayout(null);
 		JLabel jl = new JLabel();
 		jl.setBounds(512, 76, 50, 50);
-		jl.setText("¾Æ°¡¶û");
+		jl.setText("ì•„ê°€ë‘");
 		c.add(jl);
 		setSize(1024, 768);
+		JButton b = new JButton("íšŒì›ê°€ì…");
+		b.setLocation(100,50);
+		b.setSize(200,100);
+		c.add(b);
 		setVisible(true);
 		
 	}
