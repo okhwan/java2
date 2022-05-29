@@ -10,7 +10,7 @@ public class shopmain extends JFrame{
 		c.setLayout(null);
 		JLabel jl = new JLabel();
 		jl.setBounds(512, 76, 50, 50);
-		jl.setText("아가랑");
+		jl.setText("아가랑 회원");
 		c.add(jl);
 		setSize(1024, 768);
 		JButton b = new JButton("회원가입");
