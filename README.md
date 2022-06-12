@@ -6,6 +6,7 @@
 데이터베이스 테이블은 3개로
 ### 1. product (상품) 테이블   
 ### 2. seller (판매자) 판매자 정보 테이블   
+![db](https://user-images.githubusercontent.com/95335311/173225008-56d7ebc1-60dd-4558-aa7c-4ddbe74655e2.png)   
 
 상품 테이블에서는 판매자 ID가 테이블에 튜플로 존재하여서   
 
