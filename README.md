@@ -6,10 +6,18 @@
 관리자는 본인의 상품에 관해서만 데이터 처리가 가능하게 해야합니다.   
 위를 실행 하기 위해서 두 테이블의 관계를 생성하여서 외래 키를 지정하여 상품에 관해서 판매자 id의 정보를 보유해야 합니다.   
 
-데이터베이스 테이블은 3개로
+데이터베이스 테이블은 4개로
 ### 1. product (상품) 테이블   
 ### 2. seller (판매자) 판매자 정보 테이블   
-![javadb1](https://user-images.githubusercontent.com/95335311/174206221-48f3b76d-3660-42d7-822c-45f13a3b777a.png)
+![javadb1](https://user-images.githubusercontent.com/95335311/174206221-48f3b76d-3660-42d7-822c-45f13a3b777a.png)   
+   
+### 3. user (구매자) 구매자 정보 테이블
+### 4. user_product (구매자) 구매자 구매 정보 테이블
+![javadb2](https://user-images.githubusercontent.com/95335311/174206283-e1398a0f-63ba-448e-bf17-44eec9032d14.png)   
+   
+구매자 테이블에서 wallet은 충전 개념으로 충전을 해야 상품이 구매가 가능합니다.   
+구매자 정보 테이블에서는 user_pr_id는 product 테이블의 id를 외래키로 받고 있으며   
+user_id는 user테이블의 id를 외래키로 받고있습니다.   
 
 상품 테이블에 seller_id는  seller 테이블에 id키의 외래키로 seller에 저장된 판매자만이 product에 관여할 수 있습니다.   
 상품 테이블에서는 판매자 ID가 테이블에 튜플로 존재하여서   
