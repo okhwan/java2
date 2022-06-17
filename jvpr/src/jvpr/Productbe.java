@@ -6,11 +6,43 @@ public class Productbe {
 	Integer pr_price;
 	Integer pr_quan;
 	String seller_id;
+	Integer wallet;
+	Integer user_pr_quan;
+	String user_pr_id;
+	String user_id;
+	public Integer getwallet() {
+		return wallet;
+	}
+	public void setwallet(Integer wallet) {
+		this.wallet = wallet;
+	}
+	
+	public Integer getuser_pr_quan() {
+		return user_pr_quan;
+	}
+	public void setuser_pr_quan(Integer user_pr_quan) {
+		this.user_pr_quan = user_pr_quan;
+	}
+	
 	public String getpr_id() {
 		return pr_id;
 	}
 	public void setpr_id(String id) {
 		this.pr_id = id;
+	}
+	
+	public String getuser_pr_id() {
+		return user_pr_id;
+	}
+	public void setuser_pr_id(String id) {
+		this.user_pr_id = id;
+	}
+	
+	public String getuser_id() {
+		return user_id;
+	}
+	public void setuser_id(String id) {
+		this.user_id = id;
 	}
 	
 	public String getpr_name() {
