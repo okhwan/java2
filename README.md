@@ -9,7 +9,7 @@
 데이터베이스 테이블은 3개로
 ### 1. product (상품) 테이블   
 ### 2. seller (판매자) 판매자 정보 테이블   
-![db](https://user-images.githubusercontent.com/95335311/173225008-56d7ebc1-60dd-4558-aa7c-4ddbe74655e2.png)   
+![javadb1](https://user-images.githubusercontent.com/95335311/174206221-48f3b76d-3660-42d7-822c-45f13a3b777a.png)
 
 상품 테이블에 seller_id는  seller 테이블에 id키의 외래키로 seller에 저장된 판매자만이 product에 관여할 수 있습니다.   
 상품 테이블에서는 판매자 ID가 테이블에 튜플로 존재하여서   
